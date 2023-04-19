@@ -62,6 +62,7 @@ console.log("Running function getLast-should get Bob2",getLast(["Bob", "Don", "B
 // 7. Function to find a value in an array. Return true if the
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find
+
 function find(value, array) {
   for (let i = 0; i < array.length; i++) {
     console.log(array[i]);
